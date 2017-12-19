@@ -1,0 +1,46 @@
+body {
+    background-image: url("../image/ocean.jpg");
+    text-align: center;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+li {
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+#inputBox {
+    padding: 8px 16px;
+}
+
+#postButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
